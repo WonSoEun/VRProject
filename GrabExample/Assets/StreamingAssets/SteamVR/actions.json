@@ -1,0 +1,156 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/LeftStick",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/RightStick",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/LeftClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/RightClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Button_A",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Button_B",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Button_X",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Button_Y",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/LeftTrigger",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/RightTrigger",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/LeftGrad",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/RightGrad",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/LeftPose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/default/in/RightPose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/default/in/LeftSkeleton",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/default/in/RightSkeleton",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/default/out/Hattic",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "leftright"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "bindings_holographic_controller.json"
+    },
+    {
+      "controller_type": "vive_cosmos_controller",
+      "binding_url": "bindings_vive_cosmos_controller.json"
+    },
+    {
+      "controller_type": "logitech_stylus",
+      "binding_url": "bindings_logitech_stylus.json"
+    },
+    {
+      "controller_type": "vive_cosmos",
+      "binding_url": "binding_vive_cosmos.json"
+    },
+    {
+      "controller_type": "vive",
+      "binding_url": "binding_vive.json"
+    },
+    {
+      "controller_type": "indexhmd",
+      "binding_url": "binding_index_hmd.json"
+    },
+    {
+      "controller_type": "vive_pro",
+      "binding_url": "binding_vive_pro.json"
+    },
+    {
+      "controller_type": "rift",
+      "binding_url": "binding_rift.json"
+    },
+    {
+      "controller_type": "holographic_hmd",
+      "binding_url": "binding_holographic_hmd.json"
+    },
+    {
+      "controller_type": "vive_tracker_camera",
+      "binding_url": "binding_vive_tracker_camera.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/in/LeftStick": "LeftStick",
+      "/actions/default/in/RightStick": "RightStick",
+      "/actions/default/in/LeftClick": "LeftClick",
+      "/actions/default/in/RightClick": "RightClick",
+      "/actions/default/in/Button_A": "Button_A",
+      "/actions/default/in/Button_B": "Button_B",
+      "/actions/default/in/Button_X": "Button_X",
+      "/actions/default/in/Button_Y": "Button_Y",
+      "/actions/default/in/LeftTrigger": "LeftTrigger",
+      "/actions/default/in/RightTrigger": "RightTrigger",
+      "/actions/default/in/LeftGrad": "LeftGrad",
+      "/actions/default/in/RightGrad": "RightGrad",
+      "/actions/default/in/LeftPose": "LeftPose",
+      "/actions/default/in/RightPose": "RightPose",
+      "/actions/default/out/Hattic": "Hattic",
+      "/actions/default/in/LeftSkeleton": "LeftSkeleton",
+      "/actions/default/in/RightSkeleton": "RightSkeleton"
+    }
+  ]
+}
